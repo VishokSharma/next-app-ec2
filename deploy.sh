@@ -14,4 +14,4 @@ npm install
 
 npm run build
 
-npm run start
+nohup npm run start > next.log 2>&1 &
